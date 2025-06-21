@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - MONGODB_URI=mongodb://mongo:27017/web-oto
+      - TARGET_URL=${TARGET_URL}
+      - SESSION_DURATION=${SESSION_DURATION:-14400000}
+      - PARALLEL_SESSIONS=${PARALLEL_SESSIONS:-5}
+      - HEALTH_CHECK_INTERVAL=${HEALTH_CHECK_INTERVAL:-60000}
+      - ADMIN_USERNAME=${ADMIN_USERNAME:-admin}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-admin123}
+    depends_on:
+      - mongo
+    volumes:
+      - ./logs:/app/logs
+      - ./accountsExample.csv:/app/accountsExample.csv
+    restart: unless-stopped
+    networks:
+      - web-oto-network
+
+  mongo:
+    image: mongo:6
+    environment:
+      - MONGO_INITDB_DATABASE=web-oto
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+    networks:
+      - web-oto-network
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./ssl:/etc/nginx/ssl
+    depends_on:
+      - app
+    restart: unless-stopped
+    networks:
+      - web-oto-network
+
+volumes:
+  mongo_data:
+
+networks:
+  web-oto-network:
+    driver: bridge 

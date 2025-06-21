@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - MONGODB_URI=mongodb://mongo:27017/web-oto
+      - TARGET_URL=${TARGET_URL}
+      - SESSION_DURATION=${SESSION_DURATION:-14400000}
+      - PARALLEL_SESSIONS=${PARALLEL_SESSIONS:-5}
+      - HEALTH_CHECK_INTERVAL=${HEALTH_CHECK_INTERVAL:-60000}
+      - ADMIN_USERNAME=${ADMIN_USERNAME:-admin}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-admin123}
+    depends_on:
+      - mongo
+    volumes:
+      - ./logs:/app/logs
+      - ./accountsExample.csv:/app/accountsExample.csv
+    restart: unless-stopped
+
+  mongo:
+    image: mongo:6
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_DATABASE=web-oto
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+
+volumes:
+  mongo_data: 
