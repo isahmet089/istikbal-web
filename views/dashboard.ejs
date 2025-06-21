@@ -1,54 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Automation Dashboard</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/dashboard.css" rel="stylesheet">
+    <style>
+      body { background: #18191a; color: #f5f6fa; }
+      .dashboard-card { background: #232526; border-radius: 18px; box-shadow: 0 2px 16px rgba(0,0,0,0.12); }
+      .dashboard-header { font-weight: 700; letter-spacing: 1px; }
+      .btn { border-radius: 8px; font-weight: 500; }
+      .table-dark { --bs-table-bg: #232526; --bs-table-striped-bg: #232526; --bs-table-hover-bg: #232526; color: #fff; }
+      .icon { font-size: 1.5rem; vertical-align: middle; }
+      .summary-badge { font-size: 1.1rem; padding: 0.7em 1.2em; border-radius: 1em; }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container">
-            <span class="navbar-brand mb-0 h1">Web Automation Dashboard</span>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">Web Automation Dashboard</span>
+  </div>
+</nav>
+<div class="container-fluid">
+  <div class="row g-4">
+    <!-- Sol Panel -->
+    <div class="col-12 col-md-3">
+      <div class="dashboard-card p-4 mb-4">
+        <div class="d-flex align-items-center mb-3">
+          <i class="bi bi-bar-chart-line icon me-2"></i>
+          <span class="dashboard-header">Genel Özet</span>
         </div>
-    </nav>
-
-    <div class="container mt-4">
-        <div class="row mb-4">
-            <div class="col">
-                <button id="importBtn" class="btn btn-primary">Import Accounts</button>
-                <button id="startBtn" class="btn btn-success">Start Automation</button>
-                <button id="stopBtn" class="btn btn-danger">Stop Automation</button>
-            </div>
+        <div class="mb-2">Toplam Hesap: <span class="badge bg-light text-dark summary-badge"><%= summary && summary.total !== undefined ? summary.total : 0 %></span></div>
+        <div class="mb-2">Aktif: <span class="badge bg-success summary-badge"><%= summary && summary.active !== undefined ? summary.active : 0 %></span></div>
+        <div class="mb-2">Başarısız: <span class="badge bg-danger summary-badge"><%= summary && summary.failed !== undefined ? summary.failed : 0 %></span></div>
+      </div>
+      <div class="dashboard-card p-4 mb-4">
+        <div class="d-flex align-items-center mb-3">
+          <i class="bi bi-lightbulb icon me-2"></i>
+          <span class="dashboard-header">Kısa Yollar</span>
         </div>
-
-        <div class="row">
-            <div class="col-md-8">
-                <h3>Accounts</h3>
-                <div class="table-responsive">
-                    <table class="table table-striped">
-                        <thead>
-                            <tr>
-                                <th>Username</th>
-                                <th>Status</th>
-                                <th>Browser</th>
-                                <th>Last Update</th>
-                                <th>Message</th>
-                            </tr>
-                        </thead>
-                        <tbody id="accountsTable"></tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <h3>Recent Logs</h3>
-                <div id="logsList" class="list-group"></div>
-            </div>
+        <button class="btn btn-outline-light w-100 mb-2"><i class="bi bi-person-plus me-2"></i>Hesap Ekle</button>
+        <button class="btn btn-outline-light w-100"><i class="bi bi-file-earmark-arrow-down me-2"></i>CSV İndir</button>
+      </div>
+      <div class="dashboard-card p-4">
+        <div class="d-flex align-items-center mb-3">
+          <i class="bi bi-lightning-charge icon me-2"></i>
+          <span class="dashboard-header">Ek Özellikler</span>
         </div>
+        <div id="rightFeatures">
+          <!-- Yeni UI özellikleri buraya eklenebilir -->
+        </div>
+      </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/dashboard.js"></script>
+    <!-- Orta Panel -->
+    <div class="col-12 col-md-6">
+      <div class="dashboard-card p-4 mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <span class="dashboard-header fs-4">Kullanıcılar & Otomasyon</span>
+          <div class="d-flex gap-2">
+            <button id="importBtn" class="btn btn-outline-light"><i class="bi bi-upload"></i></button>
+            <button id="startBtn" class="btn btn-outline-success"><i class="bi bi-play-fill"></i></button>
+            <button id="stopBtn" class="btn btn-outline-danger"><i class="bi bi-stop-fill"></i></button>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-dark table-striped table-hover align-middle rounded">
+            <thead>
+              <tr>
+                <th><i class="bi bi-person"></i> Kullanıcı</th>
+                <th><i class="bi bi-activity"></i> Durum</th>
+                <th><i class="bi bi-browser-chrome"></i> Browser</th>
+                <th><i class="bi bi-clock-history"></i> Son Güncelleme</th>
+                <th><i class="bi bi-chat-dots"></i> Mesaj</th>
+              </tr>
+            </thead>
+            <tbody id="accountsTable"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- Sağ Panel -->
+    <div class="col-12 col-md-3">
+      <div class="dashboard-card p-4 mb-4">
+        <div class="d-flex align-items-center mb-3">
+          <i class="bi bi-bell icon me-2"></i>
+          <span class="dashboard-header">Bildirimler</span>
+        </div>
+        <ul class="list-group list-group-flush" id="notificationsList">
+          <li class="list-group-item bg-transparent text-light">Henüz bildirim yok.</li>
+        </ul>
+      </div>
+      <div class="dashboard-card p-4 mb-4">
+        <div class="d-flex align-items-center mb-3">
+          <i class="bi bi-journal-text icon me-2"></i>
+          <span class="dashboard-header">Loglar</span>
+        </div>
+        <ul class="list-group list-group-flush" id="logsList">
+          <li class="list-group-item bg-transparent text-light">Henüz log yok.</li>
+        </ul>
+      </div>
+    
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/js/dashboard.js"></script>
 </body>
 </html> 

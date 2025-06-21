@@ -3,3 +3,4 @@ node_modules
 screenshots
 accounts.csv
 ai.md
+.gitignore

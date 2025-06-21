@@ -62,6 +62,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     </td>
                     <td>${new Date(account.lastUpdated).toLocaleString()}</td>
                     <td>${account.message || '-'}</td>
+                    <td>
+                        <a href="/calendar/${account.username}" class="btn btn-sm btn-outline-primary">Takvim</a>
+                    </td>
                 </tr>
             `).join('');
 
