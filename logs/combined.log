@@ -1,0 +1,653 @@
+{"level":"info","message":"🌐 Browser başlatılıyor...","timestamp":"2025-06-21T10:51:33.045Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T10:51:33.625Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T10:51:33.628Z"}
+{"level":"info","message":"🌐 Adem.calik@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T10:51:34.223Z"}
+{"level":"info","message":"🌐 Yusuf.Dag1@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T10:51:34.302Z"}
+{"level":"info","message":"🔐 Yusuf.Dag1@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T10:51:42.680Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T10:51:42.682Z"}
+{"level":"info","message":"🔐 Adem.calik@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T10:51:43.240Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T10:51:43.243Z"}
+{"level":"info","message":"🌐 Browser başlatılıyor...","timestamp":"2025-06-21T11:04:06.129Z"}
+{"interval":"0.05 dakika","level":"info","message":"🏥 Health monitoring başlatıldı","timestamp":"2025-06-21T11:04:06.726Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:04:06.739Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:04:06.751Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:04:06.757Z"}
+{"level":"info","message":"🌐 Adem.calik@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:04:07.318Z"}
+{"level":"info","message":"🌐 Yusuf.Dag1@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:04:07.382Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:04:09.733Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:04:12.751Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:04:15.738Z"}
+{"level":"info","message":"🔐 Adem.calik@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:04:17.699Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:04:17.702Z"}
+{"level":"info","message":"🔐 Yusuf.Dag1@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:04:17.771Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:04:17.774Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:04:18.750Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:04:21.768Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:04:24.747Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:04:27.759Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:04:30.758Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:04:33.771Z"}
+{"level":"info","message":"🔍 1 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:04:36.774Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:04:36.777Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:04:36.777Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:04:36.779Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:04:39.782Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:04:39.783Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:04:39.784Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:04:39.785Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:04:39.786Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:04:39.787Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:04:39.788Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Offline","timestamp":"2025-06-21T11:04:40.424Z"}
+{"error":"page.evaluate: Execution context was destroyed, most likely because of a navigation","level":"error","message":"❌ Adem.calik@my-aolcc.com Canvas health check hatası","timestamp":"2025-06-21T11:04:40.976Z"}
+{"level":"error","message":"❌ Adem.calik@my-aolcc.com offline tespit edildi","reason":"Her iki site de offline","timestamp":"2025-06-21T11:04:40.980Z"}
+{"level":"info","message":"⏰ Adem.calik@my-aolcc.com oturumu kapatılıyor...","timestamp":"2025-06-21T11:04:41.037Z"}
+{"error":"page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://mynew.aolcc.ca/profile/communication\", waiting until \"networkidle\"\u001b[22m\n","level":"error","message":"❌ Adem.calik@my-aolcc.com Canvas health check hatası","timestamp":"2025-06-21T11:04:41.153Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için yeniden login deneniyor...","timestamp":"2025-06-21T11:04:41.206Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com yeniden login kuyruğa eklendi","timestamp":"2025-06-21T11:04:41.219Z"}
+{"level":"info","message":"🔍 1 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:04:42.790Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:04:42.791Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:04:42.792Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:04:42.794Z"}
+{"error":"page.evaluate: Target page, context or browser has been closed","level":"error","message":"❌ Adem.calik@my-aolcc.com Portal health check hatası","timestamp":"2025-06-21T11:04:42.814Z"}
+{"level":"error","message":"❌ Adem.calik@my-aolcc.com offline tespit edildi","reason":"Her iki site de offline","timestamp":"2025-06-21T11:04:42.819Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için yeniden login deneniyor...","timestamp":"2025-06-21T11:04:42.859Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com yeniden login kuyruğa eklendi","timestamp":"2025-06-21T11:04:42.868Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Offline","timestamp":"2025-06-21T11:04:43.307Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Offline","timestamp":"2025-06-21T11:04:44.192Z"}
+{"level":"error","message":"❌ Yusuf.Dag1@my-aolcc.com offline tespit edildi","reason":"Her iki site de offline","timestamp":"2025-06-21T11:04:44.193Z"}
+{"level":"info","message":"⏰ Yusuf.Dag1@my-aolcc.com oturumu kapatılıyor...","timestamp":"2025-06-21T11:04:44.208Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için yeniden login deneniyor...","timestamp":"2025-06-21T11:04:44.832Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com yeniden login kuyruğa eklendi","timestamp":"2025-06-21T11:04:44.838Z"}
+{"error":"page.evaluate: Target page, context or browser has been closed","level":"error","message":"❌ Yusuf.Dag1@my-aolcc.com Portal health check hatası","timestamp":"2025-06-21T11:04:45.790Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:04:45.793Z"}
+{"error":"page.evaluate: Target page, context or browser has been closed","level":"error","message":"❌ Yusuf.Dag1@my-aolcc.com Canvas health check hatası","timestamp":"2025-06-21T11:04:46.720Z"}
+{"level":"error","message":"❌ Yusuf.Dag1@my-aolcc.com offline tespit edildi","reason":"Her iki site de offline","timestamp":"2025-06-21T11:04:46.722Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için yeniden login deneniyor...","timestamp":"2025-06-21T11:04:46.732Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com yeniden login kuyruğa eklendi","timestamp":"2025-06-21T11:04:46.739Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:04:48.797Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:04:51.798Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:04:54.805Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:04:57.806Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:05:00.812Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:05:03.820Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:05:06.833Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:05:09.838Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com yeniden login başlatılıyor...","timestamp":"2025-06-21T11:05:11.229Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:05:11.230Z"}
+{"level":"info","message":"🌐 Adem.calik@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:05:11.564Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:05:12.843Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com yeniden login başlatılıyor...","timestamp":"2025-06-21T11:05:12.874Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:05:12.875Z"}
+{"level":"info","message":"🌐 Adem.calik@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:05:13.150Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com yeniden login başlatılıyor...","timestamp":"2025-06-21T11:05:14.848Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:05:14.848Z"}
+{"level":"info","message":"🌐 Yusuf.Dag1@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:05:15.174Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:05:15.853Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com yeniden login başlatılıyor...","timestamp":"2025-06-21T11:05:16.749Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:05:16.750Z"}
+{"level":"info","message":"🌐 Yusuf.Dag1@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:05:17.045Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:05:18.862Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:05:21.871Z"}
+{"level":"info","message":"🔐 Adem.calik@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:05:22.213Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:05:22.215Z"}
+{"level":"info","message":"🔐 Adem.calik@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:05:22.991Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:05:22.992Z"}
+{"level":"info","message":"🔐 Yusuf.Dag1@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:05:23.894Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:05:23.896Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:05:24.876Z"}
+{"level":"info","message":"🔐 Yusuf.Dag1@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:05:25.993Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:05:25.994Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:05:27.874Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:05:30.882Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:05:33.889Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:05:36.890Z"}
+{"error":"page.evaluate: Target page, context or browser has been closed","level":"error","message":"Adem.calik@my-aolcc.com Canvas login hatası","timestamp":"2025-06-21T11:05:39.245Z"}
+{"level":"info","message":"🔍 1 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:05:39.901Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:05:39.902Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:05:39.903Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:05:39.905Z"}
+{"error":"page.goto: Target page, context or browser has been closed","level":"error","message":"❌ Adem.calik@my-aolcc.com Portal health check hatası","timestamp":"2025-06-21T11:05:39.907Z"}
+{"error":"page.goto: Target page, context or browser has been closed","level":"error","message":"❌ Adem.calik@my-aolcc.com Canvas health check hatası","timestamp":"2025-06-21T11:05:39.909Z"}
+{"level":"error","message":"❌ Adem.calik@my-aolcc.com offline tespit edildi","reason":"Her iki site de offline","timestamp":"2025-06-21T11:05:39.910Z"}
+{"level":"info","message":"⏰ Adem.calik@my-aolcc.com oturumu kapatılıyor...","timestamp":"2025-06-21T11:05:39.923Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için yeniden login deneniyor...","timestamp":"2025-06-21T11:05:39.950Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com yeniden login kuyruğa eklendi","timestamp":"2025-06-21T11:05:39.954Z"}
+{"error":"page.evaluate: Target page, context or browser has been closed","level":"error","message":"Adem.calik@my-aolcc.com Canvas login hatası","timestamp":"2025-06-21T11:05:40.395Z"}
+{"level":"info","message":"🔍 1 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:05:42.908Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:05:42.909Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:05:42.910Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:05:42.912Z"}
+{"error":"page.goto: Target page, context or browser has been closed","level":"error","message":"❌ Adem.calik@my-aolcc.com Portal health check hatası","timestamp":"2025-06-21T11:05:42.914Z"}
+{"error":"page.goto: Target page, context or browser has been closed","level":"error","message":"❌ Adem.calik@my-aolcc.com Canvas health check hatası","timestamp":"2025-06-21T11:05:42.916Z"}
+{"level":"error","message":"❌ Adem.calik@my-aolcc.com offline tespit edildi","reason":"Her iki site de offline","timestamp":"2025-06-21T11:05:42.917Z"}
+{"level":"info","message":"⏰ Adem.calik@my-aolcc.com oturumu kapatılıyor...","timestamp":"2025-06-21T11:05:42.925Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için yeniden login deneniyor...","timestamp":"2025-06-21T11:05:42.945Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com yeniden login kuyruğa eklendi","timestamp":"2025-06-21T11:05:42.950Z"}
+{"level":"info","message":"🔍 1 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:05:45.909Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:05:45.910Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:05:45.910Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:05:45.912Z"}
+{"level":"info","message":"🔍 1 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:05:48.921Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:05:48.922Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:05:48.922Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:05:48.924Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Offline","timestamp":"2025-06-21T11:05:49.480Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Offline","timestamp":"2025-06-21T11:05:49.986Z"}
+{"level":"error","message":"❌ Yusuf.Dag1@my-aolcc.com offline tespit edildi","reason":"Her iki site de offline","timestamp":"2025-06-21T11:05:49.987Z"}
+{"level":"info","message":"⏰ Yusuf.Dag1@my-aolcc.com oturumu kapatılıyor...","timestamp":"2025-06-21T11:05:49.993Z"}
+{"error":"page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://mynew.aolcc.ca/profile/communication\", waiting until \"networkidle\"\u001b[22m\n","level":"error","message":"❌ Yusuf.Dag1@my-aolcc.com Canvas health check hatası","timestamp":"2025-06-21T11:05:50.053Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için yeniden login deneniyor...","timestamp":"2025-06-21T11:05:50.107Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com yeniden login kuyruğa eklendi","timestamp":"2025-06-21T11:05:50.109Z"}
+{"error":"page.evaluate: Target page, context or browser has been closed","level":"error","message":"❌ Yusuf.Dag1@my-aolcc.com Portal health check hatası","timestamp":"2025-06-21T11:05:51.888Z"}
+{"level":"error","message":"❌ Yusuf.Dag1@my-aolcc.com offline tespit edildi","reason":"Her iki site de offline","timestamp":"2025-06-21T11:05:51.890Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için yeniden login deneniyor...","timestamp":"2025-06-21T11:05:51.898Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com yeniden login kuyruğa eklendi","timestamp":"2025-06-21T11:05:51.903Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:05:51.935Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:05:54.944Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:05:57.943Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:06:00.947Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:06:03.952Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:06:06.957Z"}
+{"level":"info","message":"🔍 1 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:06:09.964Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:06:09.966Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:06:09.968Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:06:09.971Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com yeniden login başlatılıyor...","timestamp":"2025-06-21T11:06:09.981Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:06:09.983Z"}
+{"level":"info","message":"🌐 Adem.calik@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:06:10.382Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com yeniden login başlatılıyor...","timestamp":"2025-06-21T11:06:12.955Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:06:12.957Z"}
+{"level":"info","message":"🔍 1 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:06:12.964Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:06:12.967Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:06:12.968Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:06:12.978Z"}
+{"error":"page.evaluate: Execution context was destroyed, most likely because of a navigation","level":"error","message":"❌ Yusuf.Dag1@my-aolcc.com Portal health check hatası","timestamp":"2025-06-21T11:06:13.568Z"}
+{"level":"info","message":"🌐 Adem.calik@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:06:13.833Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online","timestamp":"2025-06-21T11:06:15.360Z"}
+{"level":"info","message":"🔍 1 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:06:15.966Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:06:15.967Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:06:15.967Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:06:15.969Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Offline","timestamp":"2025-06-21T11:06:16.308Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Offline","timestamp":"2025-06-21T11:06:16.845Z"}
+{"level":"error","message":"❌ Yusuf.Dag1@my-aolcc.com offline tespit edildi","reason":"Her iki site de offline","timestamp":"2025-06-21T11:06:16.846Z"}
+{"level":"info","message":"⏰ Yusuf.Dag1@my-aolcc.com oturumu kapatılıyor...","timestamp":"2025-06-21T11:06:16.853Z"}
+{"error":"page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://mynew.aolcc.ca/profile/communication\", waiting until \"networkidle\"\u001b[22m\n","level":"error","message":"❌ Yusuf.Dag1@my-aolcc.com Canvas health check hatası","timestamp":"2025-06-21T11:06:16.876Z"}
+{"error":"page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://myaolcc.ca/studentportal/my-profile/\", waiting until \"networkidle\"\u001b[22m\n","level":"error","message":"❌ Yusuf.Dag1@my-aolcc.com Portal health check hatası","timestamp":"2025-06-21T11:06:16.893Z"}
+{"level":"error","message":"❌ Yusuf.Dag1@my-aolcc.com offline tespit edildi","reason":"Her iki site de offline","timestamp":"2025-06-21T11:06:16.898Z"}
+{"level":"info","message":"⏰ Yusuf.Dag1@my-aolcc.com oturumu kapatılıyor...","timestamp":"2025-06-21T11:06:16.942Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için yeniden login deneniyor...","timestamp":"2025-06-21T11:06:16.987Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için yeniden login deneniyor...","timestamp":"2025-06-21T11:06:16.994Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com yeniden login kuyruğa eklendi","timestamp":"2025-06-21T11:06:16.999Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com yeniden login kuyruğa eklendi","timestamp":"2025-06-21T11:06:17.012Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:06:18.970Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com yeniden login başlatılıyor...","timestamp":"2025-06-21T11:06:20.131Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:06:20.132Z"}
+{"level":"info","message":"🔐 Adem.calik@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:06:20.337Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:06:20.341Z"}
+{"level":"info","message":"🌐 Yusuf.Dag1@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:06:20.443Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com yeniden login başlatılıyor...","timestamp":"2025-06-21T11:06:21.916Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:06:21.917Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:06:21.974Z"}
+{"level":"info","message":"🌐 Yusuf.Dag1@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:06:22.208Z"}
+{"level":"info","message":"🔐 Adem.calik@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:06:22.447Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:06:22.451Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:06:24.978Z"}
+{"error":"page.waitForNavigation: Target page, context or browser has been closed\n=========================== logs ===========================\nwaiting for navigation until \"networkidle\"\n============================================================","level":"error","message":"Adem.calik@my-aolcc.com Canvas login hatası","timestamp":"2025-06-21T11:06:25.362Z"}
+{"error":"page.waitForNavigation: Target page, context or browser has been closed\n=========================== logs ===========================\nwaiting for navigation until \"networkidle\"\n============================================================","level":"error","message":"Adem.calik@my-aolcc.com Portal login hatası","timestamp":"2025-06-21T11:06:25.372Z"}
+{"error":"page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://mynew.aolcc.ca/login/canvas\", waiting until \"networkidle\"\u001b[22m\n","level":"error","message":"Yusuf.Dag1@my-aolcc.com login işlemi hatası","timestamp":"2025-06-21T11:06:25.444Z"}
+{"error":"page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://mynew.aolcc.ca/login/canvas\", waiting until \"networkidle\"\u001b[22m\n","level":"error","message":"Yusuf.Dag1@my-aolcc.com login işlemi hatası","timestamp":"2025-06-21T11:06:25.492Z"}
+{"level":"info","message":"🌐 Browser başlatılıyor...","timestamp":"2025-06-21T11:06:47.638Z"}
+{"interval":"0.5 dakika","level":"info","message":"🏥 Health monitoring başlatıldı","timestamp":"2025-06-21T11:06:48.130Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:06:48.137Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:06:48.141Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:06:48.142Z"}
+{"level":"info","message":"🌐 Adem.calik@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:06:48.702Z"}
+{"level":"info","message":"🌐 Yusuf.Dag1@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:06:48.772Z"}
+{"level":"info","message":"🔐 Adem.calik@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:06:57.000Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:06:57.003Z"}
+{"level":"info","message":"🔐 Yusuf.Dag1@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:06:57.280Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:06:57.282Z"}
+{"level":"info","message":"🔍 1 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:07:18.139Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:07:18.140Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:07:18.141Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:07:18.142Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Offline","timestamp":"2025-06-21T11:07:21.584Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online","timestamp":"2025-06-21T11:07:22.716Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:07:48.136Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:07:48.137Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:07:48.138Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:07:48.140Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:07:48.141Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:07:48.141Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:07:48.144Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Offline","timestamp":"2025-06-21T11:07:51.196Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Offline","timestamp":"2025-06-21T11:07:51.647Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online","timestamp":"2025-06-21T11:07:52.115Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online","timestamp":"2025-06-21T11:07:52.178Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:08:18.140Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:08:18.142Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:08:18.143Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:08:18.144Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:08:18.146Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:08:18.146Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:08:18.148Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Offline","timestamp":"2025-06-21T11:08:21.193Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Offline","timestamp":"2025-06-21T11:08:21.195Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online","timestamp":"2025-06-21T11:08:22.625Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online","timestamp":"2025-06-21T11:08:22.673Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:08:48.152Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:08:48.152Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:08:48.153Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:08:48.153Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:08:48.154Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:08:48.154Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:08:48.155Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Offline","timestamp":"2025-06-21T11:08:51.192Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Offline","timestamp":"2025-06-21T11:08:51.193Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online","timestamp":"2025-06-21T11:08:52.886Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online","timestamp":"2025-06-21T11:08:52.999Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:09:18.156Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:09:18.157Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:09:18.158Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:09:18.159Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:09:18.161Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:09:18.162Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:09:18.163Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Offline","timestamp":"2025-06-21T11:09:21.179Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Offline","timestamp":"2025-06-21T11:09:21.181Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online","timestamp":"2025-06-21T11:09:22.638Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online","timestamp":"2025-06-21T11:09:22.791Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:09:48.162Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:09:48.162Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:09:48.163Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:09:48.163Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:09:48.164Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:09:48.164Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:09:48.164Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Offline","timestamp":"2025-06-21T11:09:51.243Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Offline","timestamp":"2025-06-21T11:09:51.258Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online","timestamp":"2025-06-21T11:09:51.975Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online","timestamp":"2025-06-21T11:09:52.209Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:10:18.163Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:10:18.163Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:10:18.164Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:10:18.165Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:10:18.166Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:10:18.166Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:10:18.167Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Offline","timestamp":"2025-06-21T11:10:21.195Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Offline","timestamp":"2025-06-21T11:10:21.208Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online","timestamp":"2025-06-21T11:10:21.969Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online","timestamp":"2025-06-21T11:10:22.206Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:10:48.173Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:10:48.174Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:10:48.174Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:10:48.176Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:10:48.177Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:10:48.177Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:10:48.178Z"}
+{"error":"page.goto: Target page, context or browser has been closed","level":"error","message":"❌ Adem.calik@my-aolcc.com Portal health check hatası","timestamp":"2025-06-21T11:10:48.181Z"}
+{"error":"page.goto: Target page, context or browser has been closed","level":"error","message":"❌ Adem.calik@my-aolcc.com Canvas health check hatası","timestamp":"2025-06-21T11:10:48.184Z"}
+{"level":"error","message":"❌ Adem.calik@my-aolcc.com offline tespit edildi","reason":"Her iki site de offline","timestamp":"2025-06-21T11:10:48.186Z"}
+{"error":"page.goto: Target page, context or browser has been closed","level":"error","message":"❌ Yusuf.Dag1@my-aolcc.com Portal health check hatası","timestamp":"2025-06-21T11:10:48.189Z"}
+{"error":"page.goto: Target page, context or browser has been closed","level":"error","message":"❌ Yusuf.Dag1@my-aolcc.com Canvas health check hatası","timestamp":"2025-06-21T11:10:48.189Z"}
+{"level":"error","message":"❌ Yusuf.Dag1@my-aolcc.com offline tespit edildi","reason":"Her iki site de offline","timestamp":"2025-06-21T11:10:48.190Z"}
+{"level":"info","message":"⏰ Adem.calik@my-aolcc.com oturumu kapatılıyor...","timestamp":"2025-06-21T11:10:48.198Z"}
+{"level":"info","message":"⏰ Yusuf.Dag1@my-aolcc.com oturumu kapatılıyor...","timestamp":"2025-06-21T11:10:48.201Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için yeniden login deneniyor...","timestamp":"2025-06-21T11:10:48.207Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için yeniden login deneniyor...","timestamp":"2025-06-21T11:10:48.213Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com yeniden login kuyruğa eklendi","timestamp":"2025-06-21T11:10:48.216Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com yeniden login kuyruğa eklendi","timestamp":"2025-06-21T11:10:48.217Z"}
+{"level":"info","message":"🌐 Browser başlatılıyor...","timestamp":"2025-06-21T11:12:24.782Z"}
+{"interval":"1 dakika","level":"info","message":"🏥 Health monitoring başlatıldı","timestamp":"2025-06-21T11:12:25.265Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:12:25.271Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:12:25.276Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:12:25.278Z"}
+{"level":"info","message":"🌐 Adem.calik@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:12:25.813Z"}
+{"level":"info","message":"🌐 Yusuf.Dag1@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:12:25.881Z"}
+{"level":"info","message":"🔐 Yusuf.Dag1@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:12:35.605Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:12:35.608Z"}
+{"level":"info","message":"🔐 Adem.calik@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:12:36.193Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:12:36.196Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:13:25.286Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:13:25.288Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:13:25.289Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:13:25.292Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:13:25.295Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:13:25.296Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:13:25.298Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:13:29.771Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:13:30.006Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:13:30.008Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:13:31.030Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:14:25.290Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:14:25.290Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:14:25.291Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:14:25.294Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:14:25.295Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:14:25.296Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:14:25.296Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:14:29.328Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:14:29.329Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:14:30.813Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:14:31.367Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:15:25.305Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:15:25.307Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:15:25.308Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:15:25.310Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:15:25.311Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:15:25.313Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:15:25.315Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:15:29.360Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:15:29.363Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:15:30.710Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:15:31.009Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:16:25.308Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:16:25.309Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:16:25.311Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:16:25.313Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:16:25.316Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:16:25.319Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:16:25.322Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:16:29.368Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:16:29.383Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:16:29.879Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:16:30.054Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:17:25.313Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:17:25.314Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:17:25.315Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:17:25.316Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:17:25.317Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:17:25.318Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:17:25.319Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:17:29.294Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:17:29.295Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:17:30.285Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:17:30.396Z"}
+{"level":"info","message":"🔄 Tüm oturumlar kapatılıyor...","timestamp":"2025-06-21T11:17:36.842Z"}
+{"level":"info","message":"🏥 Health monitoring durduruldu","timestamp":"2025-06-21T11:17:36.842Z"}
+{"level":"info","message":"⏰ Adem.calik@my-aolcc.com oturumu kapatılıyor...","timestamp":"2025-06-21T11:17:36.843Z"}
+{"level":"info","message":"⏰ Yusuf.Dag1@my-aolcc.com oturumu kapatılıyor...","timestamp":"2025-06-21T11:17:36.844Z"}
+{"level":"info","message":"🌐 Browser kapatılıyor...","timestamp":"2025-06-21T11:17:36.935Z"}
+{"level":"info","message":"🌐 Browser başlatılıyor...","timestamp":"2025-06-21T11:17:43.945Z"}
+{"interval":"1 dakika","level":"info","message":"🏥 Health monitoring başlatıldı","timestamp":"2025-06-21T11:17:44.263Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:17:44.268Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:17:44.271Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:17:44.272Z"}
+{"level":"info","message":"🌐 Adem.calik@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:17:44.685Z"}
+{"level":"info","message":"🌐 Yusuf.Dag1@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:17:44.721Z"}
+{"level":"info","message":"🔐 Yusuf.Dag1@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:17:52.979Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:17:52.979Z"}
+{"level":"info","message":"🔐 Adem.calik@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:17:53.290Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:17:53.290Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:18:44.278Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:18:44.279Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:18:44.279Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:18:44.280Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:18:44.281Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:18:44.282Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:18:44.283Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:18:48.646Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:18:48.677Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:18:49.513Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:18:49.524Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:19:44.286Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:19:44.287Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:19:44.288Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:19:44.289Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:19:44.291Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:19:44.292Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:19:44.293Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:19:48.307Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:19:48.308Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:19:49.471Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:19:49.609Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:20:44.286Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:20:44.286Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:20:44.287Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:20:44.287Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:20:44.288Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:20:44.289Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:20:44.290Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:20:48.239Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:20:48.254Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:20:49.543Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:20:49.700Z"}
+{"level":"info","message":"🔄 Tüm oturumlar kapatılıyor...","timestamp":"2025-06-21T11:21:23.888Z"}
+{"level":"info","message":"🏥 Health monitoring durduruldu","timestamp":"2025-06-21T11:21:23.891Z"}
+{"level":"info","message":"🌐 Browser başlatılıyor...","timestamp":"2025-06-21T11:21:27.184Z"}
+{"interval":"10 dakika","level":"info","message":"🏥 Health monitoring başlatıldı","timestamp":"2025-06-21T11:21:27.504Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:21:27.511Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:21:27.517Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:21:27.524Z"}
+{"level":"info","message":"🌐 Adem.calik@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:21:27.957Z"}
+{"level":"info","message":"🌐 Yusuf.Dag1@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:21:27.997Z"}
+{"level":"info","message":"🔐 Yusuf.Dag1@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:21:36.907Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:21:36.909Z"}
+{"level":"info","message":"🔐 Adem.calik@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:21:37.699Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:21:37.700Z"}
+{"level":"info","message":"🔄 Tüm oturumlar kapatılıyor...","timestamp":"2025-06-21T11:22:15.992Z"}
+{"level":"info","message":"🏥 Health monitoring durduruldu","timestamp":"2025-06-21T11:22:15.995Z"}
+{"level":"info","message":"🌐 Browser başlatılıyor...","timestamp":"2025-06-21T11:22:21.728Z"}
+{"interval":"13.333333333333334 dakika","level":"info","message":"🏥 Health monitoring başlatıldı","timestamp":"2025-06-21T11:22:22.066Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:22:22.105Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:22:22.120Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:22:22.121Z"}
+{"level":"info","message":"🌐 Adem.calik@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:22:22.551Z"}
+{"level":"info","message":"🌐 Yusuf.Dag1@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:22:22.604Z"}
+{"level":"info","message":"🔐 Yusuf.Dag1@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:22:30.641Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:22:30.642Z"}
+{"level":"info","message":"🔐 Adem.calik@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:22:31.557Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:22:31.558Z"}
+{"level":"info","message":"🔄 Tüm oturumlar kapatılıyor...","timestamp":"2025-06-21T11:22:56.746Z"}
+{"level":"info","message":"🏥 Health monitoring durduruldu","timestamp":"2025-06-21T11:22:56.749Z"}
+{"level":"info","message":"🌐 Browser başlatılıyor...","timestamp":"2025-06-21T11:23:05.952Z"}
+{"interval":"16.666666666666668 dakika","level":"info","message":"🏥 Health monitoring başlatıldı","timestamp":"2025-06-21T11:23:06.241Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:23:06.245Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:23:06.249Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:23:06.251Z"}
+{"level":"info","message":"🌐 Adem.calik@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:23:06.675Z"}
+{"level":"info","message":"🌐 Yusuf.Dag1@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:23:06.707Z"}
+{"level":"info","message":"🔐 Adem.calik@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:23:15.162Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:23:15.164Z"}
+{"level":"info","message":"🔐 Yusuf.Dag1@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:23:16.109Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:23:16.111Z"}
+{"level":"info","message":"🌐 Browser başlatılıyor...","timestamp":"2025-06-21T11:24:33.824Z"}
+{"interval":"15 dakika","level":"info","message":"🏥 Health monitoring başlatıldı","timestamp":"2025-06-21T11:24:34.137Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T11:24:34.143Z"}
+{"level":"info","message":"🔄 Adem.calik@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:24:34.148Z"}
+{"level":"info","message":"🔄 Yusuf.Dag1@my-aolcc.com için login deneniyor (1/3)","timestamp":"2025-06-21T11:24:34.150Z"}
+{"level":"info","message":"🌐 Adem.calik@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:24:34.587Z"}
+{"level":"info","message":"🌐 Yusuf.Dag1@my-aolcc.com sayfalar yükleniyor...","timestamp":"2025-06-21T11:24:34.637Z"}
+{"level":"info","message":"🔐 Adem.calik@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:24:44.243Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:24:44.246Z"}
+{"level":"info","message":"🔐 Yusuf.Dag1@my-aolcc.com Portal login başlatılıyor...","timestamp":"2025-06-21T11:24:44.364Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas login başlatılıyor...","timestamp":"2025-06-21T11:24:44.365Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:39:34.146Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:39:34.147Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:39:34.148Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:39:34.149Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:39:34.150Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:39:34.151Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:39:34.151Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:39:38.523Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:39:38.525Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:39:39.829Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:39:39.858Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T11:54:34.156Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:54:34.157Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:54:34.158Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:54:34.159Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T11:54:34.160Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T11:54:34.160Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T11:54:34.161Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:54:38.111Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T11:54:38.112Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:54:39.616Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T11:54:39.662Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T12:09:34.168Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T12:09:34.169Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T12:09:34.170Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T12:09:34.170Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T12:09:34.172Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T12:09:34.172Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T12:09:34.173Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T12:09:38.141Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T12:09:38.142Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T12:09:40.368Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T12:09:40.443Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T12:24:34.174Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T12:24:34.176Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T12:24:34.177Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T12:24:34.178Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T12:24:34.180Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T12:24:34.181Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T12:24:34.182Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T12:24:38.161Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T12:24:38.162Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T12:24:39.769Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T12:24:39.776Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T12:39:34.176Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T12:39:34.178Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T12:39:34.179Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T12:39:34.181Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T12:39:34.182Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T12:39:34.183Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T12:39:34.184Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T12:39:38.160Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T12:39:38.175Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T12:39:39.499Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T12:39:39.669Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T12:54:34.187Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T12:54:34.188Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T12:54:34.189Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T12:54:34.190Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T12:54:34.191Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T12:54:34.192Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T12:54:34.193Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T12:54:38.197Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T12:54:38.197Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T12:54:41.353Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T12:54:41.385Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T13:09:34.201Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T13:09:34.202Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T13:09:34.202Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T13:09:34.203Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T13:09:34.203Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T13:09:34.204Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T13:09:34.204Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T13:09:38.175Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T13:09:38.205Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T13:09:39.608Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T13:09:39.780Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T13:24:34.202Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T13:24:34.203Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T13:24:34.204Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T13:24:34.205Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T13:24:34.206Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T13:24:34.206Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T13:24:34.207Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T13:24:38.188Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T13:24:38.222Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T13:24:39.633Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T13:24:39.663Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T13:39:34.214Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T13:39:34.215Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T13:39:34.215Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T13:39:34.216Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T13:39:34.217Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T13:39:34.217Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T13:39:34.218Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T13:39:38.187Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T13:39:38.219Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T13:39:41.313Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T13:39:41.345Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T13:54:34.215Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T13:54:34.216Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T13:54:34.217Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T13:54:34.218Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T13:54:34.218Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T13:54:34.219Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T13:54:34.219Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T13:54:38.203Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T13:54:38.235Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T13:54:39.684Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T13:54:39.806Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T14:09:34.228Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T14:09:34.229Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T14:09:34.230Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T14:09:34.231Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T14:09:34.232Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T14:09:34.233Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T14:09:34.235Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T14:09:38.315Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T14:09:38.330Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T14:09:40.305Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T14:09:40.312Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T14:24:34.244Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T14:24:34.246Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T14:24:34.247Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T14:24:34.248Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T14:24:34.249Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T14:24:34.250Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T14:24:34.251Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T14:24:38.374Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T14:24:38.417Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T14:24:42.344Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T14:24:43.311Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T14:39:34.258Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T14:39:34.260Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T14:39:34.261Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T14:39:34.264Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T14:39:34.267Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T14:39:34.268Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T14:39:34.270Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T14:39:38.425Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T14:39:38.427Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T14:39:40.622Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T14:39:40.650Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T14:54:34.262Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T14:54:34.264Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T14:54:34.265Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T14:54:34.266Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T14:54:34.268Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T14:54:34.269Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T14:54:34.271Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T14:54:38.297Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T14:54:38.301Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T14:54:40.269Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T14:54:40.985Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T15:09:34.263Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T15:09:34.264Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T15:09:34.265Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T15:09:34.267Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T15:09:34.269Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T15:09:34.269Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T15:09:34.310Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T15:09:38.604Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T15:09:39.989Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T15:09:43.339Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T15:09:43.345Z"}
+{"level":"info","message":"🔍 2 aktif hesap için health check başlatılıyor","timestamp":"2025-06-21T15:24:34.276Z"}
+{"level":"info","message":"🔍 Adem.calik@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T15:24:34.278Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T15:24:34.279Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T15:24:34.283Z"}
+{"level":"info","message":"🔍 Yusuf.Dag1@my-aolcc.com sağlık kontrolü başlatılıyor","timestamp":"2025-06-21T15:24:34.285Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal kontrol ediliyor...","timestamp":"2025-06-21T15:24:34.286Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas kontrol ediliyor...","timestamp":"2025-06-21T15:24:34.288Z"}
+{"level":"info","message":"🏥 Adem.calik@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T15:24:38.348Z"}
+{"level":"info","message":"🏥 Yusuf.Dag1@my-aolcc.com Portal durumu: Online - İçerik var, form yok","timestamp":"2025-06-21T15:24:38.350Z"}
+{"level":"info","message":"🎨 Yusuf.Dag1@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T15:24:39.407Z"}
+{"level":"info","message":"🎨 Adem.calik@my-aolcc.com Canvas durumu: Online - Canvas elements bulundu","timestamp":"2025-06-21T15:24:40.672Z"}
+{"level":"info","message":"⏰ Adem.calik@my-aolcc.com oturumu kapatılıyor...","timestamp":"2025-06-21T15:25:27.717Z"}
+{"level":"info","message":"⏰ Yusuf.Dag1@my-aolcc.com oturumu kapatılıyor...","timestamp":"2025-06-21T15:25:27.764Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T15:39:34.281Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T15:54:34.278Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T16:09:34.286Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T16:24:34.286Z"}
+{"level":"info","message":"🔍 Aktif hesap bulunamadı, health check atlanıyor","timestamp":"2025-06-21T16:39:34.291Z"}
+{"level":"info","message":"🔄 Tüm oturumlar kapatılıyor...","timestamp":"2025-06-21T16:46:55.648Z"}
+{"level":"info","message":"🏥 Health monitoring durduruldu","timestamp":"2025-06-21T16:46:55.649Z"}
+{"level":"info","message":"🌐 Browser kapatılıyor...","timestamp":"2025-06-21T16:46:55.649Z"}

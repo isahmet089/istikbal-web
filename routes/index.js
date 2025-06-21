@@ -26,12 +26,18 @@ router.post('/api/import', accountController.importAccounts);
 router.get('/api/accounts', accountController.getAccounts);
 router.get('/api/logs', accountController.getLogs);
 router.get('/api/sessions/:username', accountController.getSessionStats);
+router.get('/api/health', accountController.getHealthStatus);
 router.post('/api/start', accountController.startAutomation);
 router.post('/api/stop', accountController.stopAutomation);
 
 // Calendar routes
 router.get('/calendar/:username', (req, res) => {
   res.render('calendar', { username: req.params.username });
+});
+
+// Canlı loglar sayfası
+router.get('/logs', (req, res) => {
+  res.render('live-logs');
 });
 
 router.get('/api/calendar/:username', accountController.getCalendarData);

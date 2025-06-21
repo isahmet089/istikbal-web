@@ -54,6 +54,15 @@ class AccountController {
     }
   }
 
+  async getHealthStatus(req, res) {
+    try {
+      const healthStatus = playwrightService.getHealthMonitorStatus();
+      res.json({ success: true, healthStatus });
+    } catch (error) {
+      res.status(500).json({ success: false, error: error.message });
+    }
+  }
+
   async startAutomation(req, res) {
     try {
       await playwrightService.initialize();

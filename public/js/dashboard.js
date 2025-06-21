@@ -17,7 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
     async function updateData() {
         await Promise.all([
             updateAccounts(),
-            updateLogs()
+            updateLogs(),
+            updateHealthStatus()
         ]);
     }
 
@@ -118,6 +119,31 @@ document.addEventListener('DOMContentLoaded', () => {
             `).join('');
         } catch (error) {
             console.error('Error updating logs:', error);
+        }
+    }
+
+    async function updateHealthStatus() {
+        try {
+            const response = await fetch('/api/health');
+            const data = await response.json();
+            
+            if (data.success) {
+                const healthStatus = data.healthStatus;
+                const statusElement = document.getElementById('healthStatus');
+                
+                if (healthStatus.isRunning) {
+                    statusElement.innerHTML = `
+                        <span class="badge bg-success">Aktif</span>
+                        <br><small>${healthStatus.interval / 60000} dakikada bir kontrol</small>
+                    `;
+                } else {
+                    statusElement.innerHTML = `
+                        <span class="badge bg-danger">Pasif</span>
+                    `;
+                }
+            }
+        } catch (error) {
+            console.error('Error updating health status:', error);
         }
     }
 

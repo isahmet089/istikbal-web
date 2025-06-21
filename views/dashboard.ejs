@@ -21,6 +21,11 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
   <div class="container-fluid">
     <span class="navbar-brand mb-0 h1">Web Automation Dashboard</span>
+    <div class="navbar-nav ms-auto">
+      <a class="nav-link" href="/logs">
+        <i class="bi bi-terminal"></i> Canlı Loglar
+      </a>
+    </div>
   </div>
 </nav>
 <div class="container-fluid">
@@ -42,16 +47,19 @@
           <span class="dashboard-header">Kısa Yollar</span>
         </div>
         <button class="btn btn-outline-light w-100 mb-2"><i class="bi bi-person-plus me-2"></i>Hesap Ekle</button>
-        <button class="btn btn-outline-light w-100"><i class="bi bi-file-earmark-arrow-down me-2"></i>CSV İndir</button>
+        <button class="btn btn-outline-light w-100 mb-2"><i class="bi bi-file-earmark-arrow-down me-2"></i>CSV İndir</button>
+        <a href="/logs" class="btn btn-outline-info w-100">
+          <i class="bi bi-terminal me-2"></i>Canlı Loglar
+        </a>
       </div>
-      <div class="dashboard-card p-4">
+      
+      
+      <div class="dashboard-card p-4 mb-4">
         <div class="d-flex align-items-center mb-3">
-          <i class="bi bi-lightning-charge icon me-2"></i>
-          <span class="dashboard-header">Ek Özellikler</span>
+          <i class="bi bi-heart-pulse me-2"></i>
+          <span class="dashboard-header">Sağlık Kontrolü</span>
         </div>
-        <div id="rightFeatures">
-          <!-- Yeni UI özellikleri buraya eklenebilir -->
-        </div>
+        <div class="mt-2" id="healthStatus">Kontrol ediliyor...</div>
       </div>
     </div>
     <!-- Orta Panel -->
