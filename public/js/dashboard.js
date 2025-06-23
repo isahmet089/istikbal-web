@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     </td>
                     <td>${new Date(account.lastUpdated).toLocaleString()}</td>
-                    <td>${account.message || '-'}</td>
+                    <td>${formatErrorMessage(account.message)}</td>
                     <td>
                         <a href="/calendar/${account.username}" class="btn btn-sm btn-outline-primary">Takvim</a>
                     </td>
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span class="badge bg-${getStatusColor(log.status)}">
                             ${getStatusText(log.status)}
                         </span>
-                        ${log.reason || ''}
+                        ${formatErrorMessage(log.reason)}
                     </p>
                 </div>
             `).join('');
@@ -216,5 +216,28 @@ document.addEventListener('DOMContentLoaded', () => {
             default:
                 return status;
         }
+    }
+
+    function formatErrorMessage(message) {
+        if (!message) return '-';
+        
+        // Şifre yanlış mesajlarını özel olarak formatla
+        if (message.includes('Şifre veya kullanıcı adı yanlış') || 
+            message.includes('wrong') || 
+            message.includes('yanlış')) {
+            return `<span class="text-danger fw-bold">🔐 ${message}</span>`;
+        }
+        
+        // Portal/Canvas hata mesajlarını formatla
+        if (message.includes('Portal Hatası:') || message.includes('Canvas Hatası:')) {
+            return `<span class="text-warning">⚠️ ${message}</span>`;
+        }
+        
+        // Genel hata mesajları
+        if (message.includes('hatası') || message.includes('error')) {
+            return `<span class="text-danger">❌ ${message}</span>`;
+        }
+        
+        return message;
     }
 }); 

@@ -193,3 +193,6 @@ Sorun yaşarsanız:
 1. Logları kontrol edin: `docker-compose logs`
 2. Container durumunu kontrol edin: `docker-compose ps`
 3. Sistem kaynaklarını kontrol edin: `docker stats` 
+
+docker compose up -d --build --force-recreate  build et ve çalısştır
+calıstır docker compose up -d
