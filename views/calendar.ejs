@@ -3,100 +3,295 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Takvim Görünümü</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
+    <title>Takvim - Web Automation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <style>
+        body { 
+            background: #f8f9fa; 
+            color: #212529; 
+        }
+        .calendar-card { 
+            background: #ffffff; 
+            border-radius: 18px; 
+            box-shadow: 0 2px 16px rgba(0,0,0,0.1); 
+            border: 1px solid #dee2e6;
+        }
+        .fc { 
+            background: #ffffff; 
+            color: #212529; 
+        }
+        .fc-toolbar { 
+            background: #f8f9fa; 
+            padding: 1rem; 
+            border-radius: 8px; 
+            margin-bottom: 1rem; 
+            border: 1px solid #dee2e6;
+        }
+        .fc-button { 
+            background: #0d6efd !important; 
+            border-color: #0d6efd !important; 
+        }
+        .fc-button:hover { 
+            background: #0b5ed7 !important; 
+        }
+        .fc-daygrid-day { 
+            background: #ffffff; 
+            border: 1px solid #dee2e6;
+        }
+        .fc-daygrid-day:hover { 
+            background: #f8f9fa; 
+        }
+        .fc-daygrid-day-number { 
+            color: #212529; 
+        }
+        .fc-col-header-cell { 
+            background: #f8f9fa; 
+            color: #212529; 
+            border: 1px solid #dee2e6;
+        }
+        .fc-event { 
+            border-radius: 6px; 
+            font-size: 11px; 
+            padding: 3px 6px; 
+            margin: 1px 0; 
+            border: none; 
+            font-weight: 600;
+            text-align: center;
+            min-height: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .fc-event-title {
+            font-weight: 600;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+        }
+        .modal-content {
+            background: #232526;
+            color: #f5f6fa;
+        }
+        .modal-header {
+            border-bottom: 1px solid #3a3b3c;
+        }
+        .modal-footer {
+            border-top: 1px solid #3a3b3c;
+        }
+        .fc-daygrid-event-dot {
+            display: none;
+        }
+        .fc-daygrid-day-events {
+            margin-top: 2px;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container">
-            <span class="navbar-brand mb-0 h1">Takvim Görünümü - <%= username %></span>
-            <a href="/" class="btn btn-light">Dashboard'a Dön</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">Web Automation Dashboard</span>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="/">
+                    <i class="bi bi-house"></i> Ana Sayfa
+                </a>
+                <a class="nav-link" href="/accounts">
+                    <i class="bi bi-person-circle"></i> Hesaplar
+                </a>
+                <a class="nav-link" href="/logs">
+                    <i class="bi bi-terminal"></i> Canlı Loglar
+                </a>
+            </div>
         </div>
     </nav>
-    <div class="container mt-4">
+
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <div id="calendar"></div>
+                <div class="calendar-card p-4">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h4><i class="bi bi-calendar3 me-2"></i><%= username %> - Oturum Takvimi</h4>
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="d-flex align-items-center gap-2">
+                                <div style="width: 16px; height: 16px; background: #dc3545; border-radius: 3px;"></div>
+                                <small>2 saatten az</small>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <div style="width: 16px; height: 16px; background: #ffc107; border-radius: 3px;"></div>
+                                <small>2-4 saat</small>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <div style="width: 16px; height: 16px; background: #28a745; border-radius: 3px;"></div>
+                                <small>4+ saat</small>
+                            </div>
+                        </div>
+                        <a href="/" class="btn btn-outline-primary">
+                            <i class="bi bi-arrow-left me-2"></i>Geri Dön
+                        </a>
+                    </div>
+                    <div id="calendar"></div>
+                </div>
             </div>
         </div>
     </div>
-    <!-- Modal for day details -->
-    <div class="modal fade" id="dayDetailModal" tabindex="-1" aria-labelledby="dayDetailModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="dayDetailModalLabel">Günlük Oturum Detayları</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
-          </div>
-          <div class="modal-body">
-            <div id="dayDetailsContent"></div>
-          </div>
+
+    <!-- Day Details Modal -->
+    <div class="modal fade" id="dayDetailModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="bi bi-calendar-day me-2"></i>Gün Detayları
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="dayDetailsContent">
+                    <!-- İçerik JavaScript ile doldurulacak -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const calendarEl = document.getElementById('calendar');
-        const username = "<%= username %>";
-        const calendar = new FullCalendar.Calendar(calendarEl, {
-          initialView: 'dayGridMonth',
-          locale: 'tr',
-          headerToolbar: {
-            left: 'prev,next today',
-            center: 'title',
-            right: 'dayGridMonth,dayGridWeek'
-          },
-          events: function(fetchInfo, successCallback, failureCallback) {
-            const start = encodeURIComponent(fetchInfo.startStr);
-            const end = encodeURIComponent(fetchInfo.endStr);
-            fetch(`/api/calendar/${username}?start=${start}&end=${end}`)
-              .then(res => res.json())
-              .then(data => {
-                if (data.success) {
-                  successCallback(data.events);
-                } else {
-                  failureCallback(data.error);
+        document.addEventListener('DOMContentLoaded', function() {
+            const username = '<%= username %>';
+            const calendarEl = document.getElementById('calendar');
+            const calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth',
+                locale: 'tr',
+                headerToolbar: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'dayGridMonth,dayGridWeek'
+                },
+                buttonText: {
+                    today: 'Bugün',
+                    month: 'Ay',
+                    week: 'Hafta'
+                },
+                dayMaxEvents: true,
+                events: function(info, successCallback, failureCallback) {
+                    const start = info.startStr;
+                    const end = info.endStr;
+                    console.log('📅 Calendar API çağrısı:', { username, start, end });
+                    
+                    fetch(`/api/calendar/${username}?start=${start}&end=${end}`)
+                        .then(response => response.json())
+                        .then(data => {
+                            console.log('📅 API Response:', data);
+                            if (data.success) {
+                                // Event'leri işle ve dakika bilgisini ekle
+                                const processedEvents = data.events.map(event => {
+                                    console.log('📅 Event:', event);
+                                    // totalMinutes'ı doğrudan kullan
+                                    const totalMinutes = event.extendedProps.totalMinutes || 0;
+                                    const newEvent = {
+                                        ...event,
+                                        title: `${totalMinutes} dk`
+                                    };
+                                    console.log('📅 Processed Event:', newEvent);
+                                    return newEvent;
+                                });
+                                console.log('📅 Final Events:', processedEvents);
+                                successCallback(processedEvents);
+                            } else {
+                                failureCallback(new Error(data.error));
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Takvim verisi yüklenirken hata:', error);
+                            failureCallback(error);
+                        });
+                },
+                eventClick: function(info) {
+                    const date = info.event.start;
+                    const dateStr = date.toISOString().split('T')[0];
+                    showDayDetails(dateStr);
+                },
+                dateClick: function(info) {
+                    const dateStr = info.dateStr;
+                    showDayDetails(dateStr);
                 }
-              })
-              .catch(failureCallback);
-          },
-          eventClick: function(info) {
-            const date = info.event.startStr;
-            fetch(`/api/calendar/${username}/day/${date}`)
-              .then(res => res.json())
-              .then(data => {
-                if (data.success) {
-                  showDayDetails(data);
-                }
-              });
-          }
+            });
+            
+            calendar.render();
+            
+            function showDayDetails(dateStr) {
+                const modal = new bootstrap.Modal(document.getElementById('dayDetailModal'));
+                const content = document.getElementById('dayDetailsContent');
+                
+                content.innerHTML = `
+                    <div class="text-center">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Yükleniyor...</span>
+                        </div>
+                    </div>
+                `;
+                
+                modal.show();
+                
+                fetch(`/api/calendar/${username}/day/${dateStr}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success && data.sessions && data.sessions.length > 0) {
+                            let html = `
+                                <h6 class="mb-3">${new Date(dateStr).toLocaleDateString('tr-TR')} 
+                                    <span class="badge bg-primary ms-2">Toplam: ${data.totalHours || 0} saat (${data.totalDuration || 0} dk)</span>
+                                </h6>
+                                <ul class="list-group mt-3">
+                            `;
+                            
+                            data.sessions.forEach(session => {
+                                const hours = Math.floor(session.duration / 60);
+                                const minutes = session.duration % 60;
+                                const durationText = hours > 0 ? `${hours}s ${minutes}dk` : `${minutes}dk`;
+                                
+                                html += `
+                                    <li class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <b>Başlangıç:</b> ${new Date(session.startTime).toLocaleString()}<br>
+                                                <b>Bitiş:</b> ${session.endTime ? new Date(session.endTime).toLocaleString() : '-'}<br>
+                                                <b>Süre:</b> <span class="badge bg-info">${durationText}</span><br>
+                                                <b>Durum:</b> <span class="badge bg-${session.status === 'success' ? 'success' : session.status === 'warning' ? 'warning' : 'danger'}">${session.status}</span>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <small class="text-muted"><strong>IP Adresleri:</strong></small><br>
+                                                <span class="badge bg-light text-dark">Portal: ${session.portalIP || 'N/A'}</span><br>
+                                                <span class="badge bg-light text-dark">Canvas: ${session.canvasIP || 'N/A'}</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                `;
+                            });
+                            
+                            html += '</ul>';
+                            content.innerHTML = html;
+                        } else {
+                            content.innerHTML = `
+                                <div class="text-center text-muted">
+                                    <i class="bi bi-calendar-x" style="font-size: 3rem;"></i>
+                                    <h5 class="mt-3">Bu günde oturum bulunamadı</h5>
+                                    <p>Seçilen tarihte herhangi bir oturum kaydı yok.</p>
+                                </div>
+                            `;
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Gün detayları yüklenirken hata:', error);
+                        content.innerHTML = `
+                            <div class="alert alert-danger">
+                                <i class="bi bi-exclamation-triangle me-2"></i>
+                                Gün detayları yüklenirken bir hata oluştu.
+                            </div>
+                        `;
+                    });
+            }
         });
-        calendar.render();
-        function showDayDetails(data) {
-          let html = `
-            <h6>${data.date} - Toplam: ${data.totalHours} saat (${data.totalDuration} dk)</h6>
-            <ul class="list-group mt-3">
-          `;
-          data.sessions.forEach(session => {
-            html += `
-              <li class="list-group-item">
-                <b>Başlangıç:</b> ${new Date(session.startTime).toLocaleString()}<br>
-                <b>Bitiş:</b> ${session.endTime ? new Date(session.endTime).toLocaleString() : '-'}<br>
-                <b>Süre:</b> ${session.duration} dk<br>
-                <b>Durum:</b> ${session.status}
-              </li>
-            `;
-          });
-          html += '</ul>';
-          document.getElementById('dayDetailsContent').innerHTML = html;
-          var modal = new bootstrap.Modal(document.getElementById('dayDetailModal'));
-          modal.show();
-        }
-      });
     </script>
 </body>
-</html> 
+</html>

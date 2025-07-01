@@ -1,10 +1,10 @@
 const Account = require('../models/accountModel');
 const Log = require('../models/logModel');
-
+const config = require('../config/botConfig');
 class HealthMonitor {
   constructor(playwrightService) {
     this.playwrightService = playwrightService;
-    this.healthCheckInterval = parseInt(process.env.HEALTH_CHECK_INTERVAL) || 300000; // 5 dakika
+    this.healthCheckInterval = config.healthCheckInterval; // Artık config'ten
     this.checkTimeout = 30000; // 30 saniye
     this.isRunning = false;
   }

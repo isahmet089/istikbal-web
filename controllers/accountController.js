@@ -4,6 +4,15 @@ const Session = require('../models/sessionModel');
 const playwrightService = require('../services/playwrightService');
 const csvService = require('../services/csvService');
 
+function parseDateSafe(dateStr) {
+  const d = new Date(dateStr);
+  if (!isNaN(d.getTime())) return d;
+  if (typeof dateStr === 'string' && dateStr.length >= 10) {
+    return new Date(dateStr.substring(0, 10));
+  }
+  return new Date();
+}
+
 class AccountController {
   async importAccounts(req, res) {
     try {
@@ -98,12 +107,18 @@ class AccountController {
   async getCalendarData(req, res) {
     try {
       const { username } = req.params;
-      const { start, end } = req.query;
-      const startDate = new Date(start);
-      const endDate = new Date(end);
+      const { start, send } = req.query;
+      
+      const startDate = parseDateSafe(start);
+      const endDate = parseDateSafe(end);
+      
+      if (isNaN(startDate.getTime()) || isNaN(endDate.getTime())) {
+        return res.status(400).json({ success: false, error: 'Geçersiz tarih formatı' });
+      }
+      
       const sessions = await Session.find({
         username: username,
-        date: { $gte: startDate, $lte: endDate }
+        startTime: { $gte: startDate, $lte: endDate }
       }).sort('startTime');
       const dailyStats = {};
       sessions.forEach(session => {
@@ -163,30 +178,56 @@ class AccountController {
   async getDayDetails(req, res) {
     try {
       const { username, date } = req.params;
-      const startOfDay = new Date(date);
-      startOfDay.setHours(0, 0, 0, 0);
-      const endOfDay = new Date(date);
-      endOfDay.setHours(23, 59, 59, 999);
+      // UTC gün başlangıcı ve bitişi
+      const startOfDay = new Date(date + "T00:00:00.000Z");//kanadaya deploy ettiğinde z yi kaldır 
+      const endOfDay = new Date(date + "T23:59:59.999Z");//kanadaya deploy ettiğinde z yi kaldır 
+      
+      console.log('🔍 Debug - getDayDetails:', {
+        username,
+        date,
+        startOfDay: startOfDay.toISOString(),
+        endOfDay: endOfDay.toISOString()
+      });
+      
       const sessions = await Session.find({
         username: username,
-        date: { $gte: startOfDay, $lte: endOfDay }
+        startTime: { $gte: startOfDay, $lte: endOfDay }
       }).sort('startTime');
+      
+      console.log('🔍 Debug - Bulunan session sayısı:', sessions.length);
+      console.log('🔍 Debug - Session detayları:', sessions.map(s => ({
+        id: s._id,
+        startTime: s.startTime,
+        duration: s.duration,
+        status: s.status
+      })));
+      
       const totalDuration = sessions.reduce((sum, session) => sum + (session.duration || 0), 0);
       const totalHours = Math.round((totalDuration / 60) * 10) / 10;
+      
+      // IP istatistiklerini hesapla
+      const ipStats = await Session.getIPStats(username, startOfDay, endOfDay);
+      
       res.json({
         success: true,
         date,
         totalHours,
         totalDuration,
+        ipStats,
         sessions: sessions.map(session => ({
           id: session._id,
           startTime: session.startTime,
           endTime: session.endTime,
           duration: session.duration,
-          status: session.status
+          status: session.status,
+          portalIP: session.ipInfo?.portalIP || session.portalIP || 'N/A',
+          canvasIP: session.ipInfo?.canvasIP || session.canvasIP || 'N/A',
+          geoInfo: session.ipInfo?.geoInfo || { proxy: false },
+          ipChanges: session.ipInfo?.ipChanges || []
         }))
       });
     } catch (error) {
+      console.error('❌ getDayDetails hatası:', error);
       res.status(500).json({ success: false, error: error.message });
     }
   }

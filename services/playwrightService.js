@@ -12,6 +12,7 @@
  * - Screenshot alma
  * - Health monitoring
  * - Memory management
+ * - IP adresi loglama
  */
 
 const { chromium } = require('playwright');
@@ -20,6 +21,8 @@ const Log = require('../models/logModel');
 const Session = require('../models/sessionModel');
 const { randomDelay } = require('../utils/randomDelay');
 const HealthMonitor = require('./healthMonitor');
+const config = require('../config/botConfig');
+
 
 /**
  * PlaywrightService Sınıfı
@@ -35,9 +38,10 @@ class PlaywrightService {
     this.browser = null;                    // Chrome browser instance
     this.activeSessions = new Map();        // Aktif oturumları tutan Map (username -> sessionData)
     this.isInitialized = false;             // Browser başlatıldı mı?
-    this.maxRetries = 3;                    // Maksimum yeniden deneme sayısı
-    this.sessionDuration = parseInt(process.env.SESSION_DURATION) || 4 * 60 * 60 * 1000; // 4 saat (milisaniye)
+    this.maxRetries = config.maxRetries;    // Maksimum yeniden deneme sayısı artık config'ten
+    this.sessionDuration = config.sessionDuration; // Artık config'ten
     this.healthMonitor = new HealthMonitor(this); // Sağlık kontrolü servisi
+    this.ipMonitoringInterval = null;        // IP monitoring interval
   }
 
   /**
@@ -58,7 +62,7 @@ class PlaywrightService {
       
       // Chrome browser'ı başlat
       this.browser = await chromium.launch({ 
-        headless: false,  // Görünür modda çalıştır (debug için)
+        headless: true,  // Görünür modda çalıştır (debug için)
         args: [
           '--start-maximized',        // Tam ekran başlat
           '--disable-extensions',     // Eklentileri devre dışı bırak (performans)
@@ -80,6 +84,9 @@ class PlaywrightService {
       
       // Health monitoring başlat (düzenli sağlık kontrolü)
       await this.healthMonitor.startHealthMonitoring();
+      
+      // IP monitoring başlat (periyodik IP kontrolü)
+      await this.startIPMonitoring();
       
       return true;
     } catch (error) {
@@ -183,6 +190,54 @@ class PlaywrightService {
   }
 
   /**
+   * IP Adresi Alma Metodu
+   * Kullanıcının IP adresini alır ve loglar
+   * 
+   * @param {Object} page - Playwright page object
+   * @param {string} username - Kullanıcı adı
+   * @param {string} platform - Platform adı (portal/canvas)
+   * @returns {Promise<string>} IP adresi
+   */
+  async getAndLogIPAddress(page, username, platform) {
+    try {
+      // IP adresini almak için whatismyipaddress.com veya benzeri servis kullan
+      const ipResponse = await page.evaluate(async () => {
+        try {
+          const response = await fetch('https://api.ipify.org?format=json');
+          const data = await response.json();
+          return data.ip;
+        } catch (error) {
+          // Alternatif IP servisi
+          try {
+            const response = await fetch('https://httpbin.org/ip');
+            const data = await response.json();
+            return data.origin;
+          } catch (fallbackError) {
+            return 'IP alınamadı';
+          }
+        }
+      });
+
+      // IP adresini logla
+      global.logger?.info(`🌐 ${username} ${platform} IP adresi: ${ipResponse}`, {
+        username: username,
+        platform: platform,
+        ipAddress: ipResponse,
+        timestamp: new Date().toISOString()
+      });
+
+      return ipResponse;
+    } catch (error) {
+      global.logger?.warning(`⚠️ ${username} ${platform} IP adresi alınamadı`, {
+        error: error.message,
+        username: username,
+        platform: platform
+      });
+      return 'IP alınamadı';
+    }
+  }
+
+  /**
    * Çift Platform Login İşlemi
    * Hem Student Portal hem de Canvas'a aynı anda giriş yapar
    * 
@@ -212,6 +267,16 @@ class PlaywrightService {
 
       await randomDelay(2000, 4000); // 2-4 saniye bekle
 
+      // IP adreslerini al ve logla (paralel)
+      const [portalIP, canvasIP] = await Promise.allSettled([
+        this.getAndLogIPAddress(page1, account.username, 'Portal'),
+        this.getAndLogIPAddress(page2, account.username, 'Canvas')
+      ]);
+
+      // IP adreslerini sonuçlara ekle
+      const portalIPResult = portalIP.status === 'fulfilled' ? portalIP.value : 'IP alınamadı';
+      const canvasIPResult = canvasIP.status === 'fulfilled' ? canvasIP.value : 'IP alınamadı';
+
       // İki platforma aynı anda login ol (paralel işlem)
       const [portalSuccess, canvasSuccess] = await Promise.allSettled([
         this.loginToStudentPortal(page1, account),
@@ -229,14 +294,16 @@ class PlaywrightService {
       if (!portalResult.success && portalResult.error) {
         global.logger?.warning(`⚠️ ${account.username} Portal hatası: ${portalResult.error}`, {
           errorType: portalResult.errorType,
-          platform: 'portal'
+          platform: 'portal',
+          ipAddress: portalIPResult
         });
       }
 
       if (!canvasResult.success && canvasResult.error) {
         global.logger?.warning(`⚠️ ${account.username} Canvas hatası: ${canvasResult.error}`, {
           errorType: canvasResult.errorType,
-          platform: 'canvas'
+          platform: 'canvas',
+          ipAddress: canvasIPResult
         });
       }
 
@@ -249,6 +316,8 @@ class PlaywrightService {
         canvasError: canvasResult.error,
         portalErrorType: portalResult.errorType,
         canvasErrorType: canvasResult.errorType,
+        portalIP: portalIPResult,
+        canvasIP: canvasIPResult,
         pages: { page1, page2 } // Sayfaları session için sakla
       };
 
@@ -261,7 +330,9 @@ class PlaywrightService {
         portalError: error.message,
         canvasError: error.message,
         portalErrorType: 'exception',
-        canvasErrorType: 'exception'
+        canvasErrorType: 'exception',
+        portalIP: 'IP alınamadı',
+        canvasIP: 'IP alınamadı'
       };
     }
   }
@@ -531,7 +602,7 @@ class PlaywrightService {
       const overallStatus = result.portal && result.canvas ? 'success' : 'partial_failed';
       
       // Detaylı mesaj oluştur
-      let message = `Portal: ${result.portal ? 'Başarılı' : 'Başarısız'}, Canvas: ${result.canvas ? 'Başarılı' : 'Başarısız'}`;
+      let message = `Portal: ${result.portal ? 'Başarılı' : 'Başarısız'} (IP: ${result.portalIP}), Canvas: ${result.canvas ? 'Başarılı' : 'Başarısız'} (IP: ${result.canvasIP})`;
       
       // Hata detaylarını ekle
       if (!result.portal && result.portalError) {
@@ -547,7 +618,7 @@ class PlaywrightService {
         await Log.create({
           username: account.username,
           status: 'failed',
-          reason: `Şifre/Kullanıcı adı yanlış - Portal: ${result.portalError || 'N/A'}, Canvas: ${result.canvasError || 'N/A'}`
+          reason: `Şifre/Kullanıcı adı yanlış - Portal: ${result.portalError || 'N/A'} (IP: ${result.portalIP}), Canvas: ${result.canvasError || 'N/A'} (IP: ${result.canvasIP})`
         });
 
         // Hesap durumunu güncelle
@@ -559,7 +630,9 @@ class PlaywrightService {
 
         global.logger?.error(`❌ ${account.username} kimlik bilgileri yanlış - Browser kapatıldı`, {
           portalError: result.portalError,
-          canvasError: result.canvasError
+          canvasError: result.canvasError,
+          portalIP: result.portalIP,
+          canvasIP: result.canvasIP
         });
 
         return; // Session kurma, hesabı failed olarak işaretle
@@ -577,7 +650,18 @@ class PlaywrightService {
       const session = await Session.create({
         username: account.username,
         startTime: new Date(),
-        status: 'active'
+        status: 'active',
+        ipInfo: {
+          portalIP: result.portalIP,
+          canvasIP: result.canvasIP,
+          ipChanges: [],
+          geoInfo: {
+            proxy: false
+          }
+        },
+        // Geriye uyumluluk için eski alanları da doldur
+        portalIP: result.portalIP,
+        canvasIP: result.canvasIP
       });
 
       // Aktif session'ı Map'e ekle
@@ -586,6 +670,8 @@ class PlaywrightService {
         startTime: new Date(),
         context: context,
         pages: result.pages,
+        portalIP: result.portalIP,
+        canvasIP: result.canvasIP,
         updateInterval: setInterval(async () => {
           await this.updateSessionDuration(session._id);
         }, 60000) // Her dakika süreyi güncelle
@@ -602,7 +688,9 @@ class PlaywrightService {
         status: overallStatus, 
         sessionId: session._id,
         portalError: result.portalError,
-        canvasError: result.canvasError
+        canvasError: result.canvasError,
+        portalIP: result.portalIP,
+        canvasIP: result.canvasIP
       });
 
       // Session süresi dolduğunda otomatik kapat
@@ -780,6 +868,9 @@ class PlaywrightService {
       // Health monitoring durdur
       await this.healthMonitor.stopHealthMonitoring();
       
+      // IP monitoring durdur
+      await this.stopIPMonitoring();
+      
       // Tüm aktif oturumları kapat
       const usernames = Array.from(this.activeSessions.keys());
       await Promise.all(usernames.map(username => this.endSession(username)));
@@ -819,6 +910,106 @@ class PlaywrightService {
    */
   getHealthMonitorStatus() {
     return this.healthMonitor.getHealthStatus();
+  }
+
+  /**
+   * IP Değişikliği Takip Metodu
+   * Aktif session'larda IP değişikliklerini takip eder
+   * 
+   * @param {string} username - Kullanıcı adı
+   * @param {string} platform - Platform (portal/canvas)
+   * @param {string} newIP - Yeni IP adresi
+   * @param {string} reason - Değişiklik nedeni
+   */
+  async trackIPChange(username, platform, newIP, reason = 'session_update') {
+    try {
+      const activeSession = this.activeSessions.get(username);
+      if (!activeSession) return;
+
+      const session = await Session.findById(activeSession.sessionId);
+      if (!session) return;
+
+      // IP değişikliği kontrolü ve kaydetme
+      await session.addIPChange(platform, 
+        platform === 'portal' ? session.ipInfo.portalIP : session.ipInfo.canvasIP, 
+        newIP, 
+        reason
+      );
+
+      // Aktif session'da IP bilgilerini güncelle
+      if (platform === 'portal') {
+        activeSession.portalIP = newIP;
+      } else if (platform === 'canvas') {
+        activeSession.canvasIP = newIP;
+      }
+
+      global.logger?.info(`🌐 ${username} ${platform} IP değişikliği: ${newIP}`, {
+        username,
+        platform,
+        newIP,
+        reason,
+        sessionId: session._id
+      });
+
+    } catch (error) {
+      global.logger?.error(`${username} IP değişikliği takip hatası`, { 
+        error: error.message, 
+        platform, 
+        newIP 
+      });
+    }
+  }
+
+  /**
+   * Periyodik IP Kontrolü
+   * Aktif session'larda IP değişikliklerini periyodik olarak kontrol eder
+   */
+  async startIPMonitoring() {
+    if (this.ipMonitoringInterval) {
+      clearInterval(this.ipMonitoringInterval);
+    }
+
+    this.ipMonitoringInterval = setInterval(async () => {
+      const usernames = Array.from(this.activeSessions.keys());
+      
+      for (const username of usernames) {
+        const activeSession = this.activeSessions.get(username);
+        if (!activeSession || !activeSession.pages) continue;
+
+        try {
+          // Portal IP kontrolü
+          if (activeSession.pages.page1) {
+            const portalIP = await this.getAndLogIPAddress(activeSession.pages.page1, username, 'Portal');
+            if (portalIP !== activeSession.portalIP && portalIP !== 'IP alınamadı') {
+              await this.trackIPChange(username, 'portal', portalIP, 'periodic_check');
+            }
+          }
+
+          // Canvas IP kontrolü
+          if (activeSession.pages.page2) {
+            const canvasIP = await this.getAndLogIPAddress(activeSession.pages.page2, username, 'Canvas');
+            if (canvasIP !== activeSession.canvasIP && canvasIP !== 'IP alınamadı') {
+              await this.trackIPChange(username, 'canvas', canvasIP, 'periodic_check');
+            }
+          }
+        } catch (error) {
+          global.logger?.error(`${username} periyodik IP kontrolü hatası`, { error: error.message });
+        }
+      }
+    }, config.ipCheckInterval); // Artık config'ten
+
+    global.logger?.info('🌐 IP monitoring başlatıldı (' + (config.ipCheckInterval / 60000) + ' dakikada bir kontrol)');
+  }
+
+  /**
+   * IP Monitoring Durdurma
+   */
+  async stopIPMonitoring() {
+    if (this.ipMonitoringInterval) {
+      clearInterval(this.ipMonitoringInterval);
+      this.ipMonitoringInterval = null;
+      global.logger?.info('🌐 IP monitoring durduruldu');
+    }
   }
 }
 
